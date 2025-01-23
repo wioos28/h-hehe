@@ -97,22 +97,22 @@ end
 })
 
 Tab:AddButton({
-	Name = "NEW: "",
+	Name = "NEW: Alchemy",
 	Callback = function()
-       loadstring(game:HttpGet("
+       loadstring(game:HttpGet("https://https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua'))()"))()
   	end    
 })
 Tab:AddButton({
 	Name = "NEW: redz",
 	Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
-end    
+  	end    
 })
 Tab:AddButton({
 	Name = "NEW: w-arue",
 	Callback = function()
       loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
- end    
+  	end    
 })
 
 Tab:AddButton({
