@@ -97,9 +97,9 @@ end
 })
 
 Tab:AddButton({
-	Name = "NEW: Alchemy",
+	Name = "NEW: "xero hub",
 	Callback = function()
-       loadstring(game:HttpGet("https://https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua'))()"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/main/main.lua"))()
   	end    
 })
 Tab:AddButton({
