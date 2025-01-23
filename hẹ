@@ -1,4 +1,4 @@
-cal OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
 
 local Window = OrionLib:MakeWindow({Name = "wioos", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
@@ -65,18 +65,18 @@ Tab2:AddButton({
 })
 
 Tab2:AddButton({
-	Name = "redz",
+	Name = "Arceus X",
 	Callback = function()
         repeat wait(5) until game:IsLoaded()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
 end
 })
 
 Tab2:AddButton({
-	Name = "zis youtube",
+	Name = "Krnl",
 	Callback = function()
         repeat wait(5) until game:IsLoaded()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb6"))()
+      loadstring(game:HttpGet("https://pastebin.com/raw/M3HjLPU7"))()
 end
 })
 
@@ -103,9 +103,9 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
-	Name = "NEW: Banana",
+	Name = "NEW: redz",
 	Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptRUs/BananaHub/main/BananaHub.lua"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
   	end    
 })
 Tab:AddButton({
