@@ -99,7 +99,7 @@ end
 Tab:AddButton({
 	Name = "NEW: Alchemy",
 	Callback = function()
-       loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+       loadstring(game:HttpGet("https://https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua'))()"))()
   	end    
 })
 Tab:AddButton({
