@@ -97,9 +97,9 @@ end
 })
 
 Tab:AddButton({
-	Name = "NEW: "xero hub",
+	Name = "NEW: "",
 	Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/main/main.lua"))()
+       loadstring(game:HttpGet("
   	end    
 })
 Tab:AddButton({
